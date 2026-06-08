@@ -89,6 +89,18 @@ systemctl --user restart music-widget.service
 journalctl --user -u music-widget.service -f
 ```
 
+#### Running on a remote server
+
+Running locally with a Cloudflare tunnel works fine but means the badge goes offline when your machine is off. If you want it always on, you can run the server on any VPS or cloud instance.
+
+In that case you don't need `cloudflared` or `start.py` at all. Just run the FastAPI server directly:
+
+```bash
+uvicorn server:app --host 0.0.0.0 --port 8000
+```
+
+Then set a fixed public URL in your README and point `SERVER_URL` in `tampermonkey.js` to `https://yourdomain.com/now-playing`. You can skip the `GITHUB_TOKEN` and `GITHUB_REPO` variables since the README no longer needs to be updated on startup.
+
 ### 6. Install the Tampermonkey script
 
 1. Open Tampermonkey -> Dashboard -> click the **+** icon to create a new script
