@@ -36,8 +36,8 @@
 
   <!-- Text -->
   <g clip-path="url(#text-clip)">
-    <text x="104" y="40" font-family="system-ui,-apple-system,sans-serif" font-size="15" font-weight="700" fill="#ffffff">Internet Baby</text>
-    <text x="104" y="60" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#cccccc">S3RL</text>
+    <text x="104" y="40" font-family="system-ui,-apple-system,sans-serif" font-size="15" font-weight="700" fill="#ffffff">Blinding Lights</text>
+    <text x="104" y="60" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#cccccc">The Weeknd</text>
     <text x="104" y="82" font-family="system-ui,-apple-system,sans-serif" font-size="9"  fill="#666666">&#9834; Apple Music</text>
   </g>
 
