@@ -14,15 +14,15 @@
   <!-- Animated background blobs -->
   <g clip-path="url(#card-clip)">
     <g filter="url(#blob-blur)" opacity="0.55">
-      <circle cx="60" cy="50" r="95" fill="#00b4b4">
+      <circle cx="60" cy="50" r="95" fill="#cc1030">
         <animate attributeName="cx" values="60;115;40;90;60"    dur="22s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
         <animate attributeName="cy" values="50;82;22;68;50"    dur="19s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
       </circle>
-      <circle cx="310" cy="15" r="85" fill="#c030a0">
+      <circle cx="310" cy="15" r="85" fill="#7a0030">
         <animate attributeName="cx" values="310;245;375;275;310" dur="28s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
         <animate attributeName="cy" values="15;78;8;58;15"      dur="24s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
       </circle>
-      <circle cx="465" cy="82" r="75" fill="#4020c0">
+      <circle cx="465" cy="82" r="75" fill="#e83010">
         <animate attributeName="cx" values="465;390;495;425;465" dur="20s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
         <animate attributeName="cy" values="82;22;92;48;82"     dur="26s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"/>
       </circle>
@@ -42,23 +42,23 @@
   </g>
 
   <!-- Animated equalizer -->
-  <rect x="410" y="72" width="6" height="10" rx="2.5" fill="#00b4b4">
+  <rect x="410" y="72" width="6" height="10" rx="2.5" fill="#cc1030">
     <animate attributeName="height" values="10;30;16;10" dur="1.0s" repeatCount="indefinite" begin="0s"/>
     <animate attributeName="y"      values="72;52;66;72" dur="1.0s" repeatCount="indefinite" begin="0s"/>
   </rect>
-  <rect x="418" y="58" width="6" height="24" rx="2.5" fill="#00b4b4">
+  <rect x="418" y="58" width="6" height="24" rx="2.5" fill="#cc1030">
     <animate attributeName="height" values="24;10;28;24" dur="0.8s" repeatCount="indefinite" begin="0.2s"/>
     <animate attributeName="y"      values="58;72;54;58" dur="0.8s" repeatCount="indefinite" begin="0.2s"/>
   </rect>
-  <rect x="426" y="64" width="6" height="18" rx="2.5" fill="#00b4b4">
+  <rect x="426" y="64" width="6" height="18" rx="2.5" fill="#cc1030">
     <animate attributeName="height" values="18;40;8;18" dur="1.2s" repeatCount="indefinite" begin="0.05s"/>
     <animate attributeName="y"      values="64;42;74;64" dur="1.2s" repeatCount="indefinite" begin="0.05s"/>
   </rect>
-  <rect x="434" y="52" width="6" height="30" rx="2.5" fill="#00b4b4">
+  <rect x="434" y="52" width="6" height="30" rx="2.5" fill="#cc1030">
     <animate attributeName="height" values="30;12;22;30" dur="0.9s" repeatCount="indefinite" begin="0.3s"/>
     <animate attributeName="y"      values="52;70;60;52" dur="0.9s" repeatCount="indefinite" begin="0.3s"/>
   </rect>
-  <rect x="442" y="68" width="6" height="14" rx="2.5" fill="#00b4b4">
+  <rect x="442" y="68" width="6" height="14" rx="2.5" fill="#cc1030">
     <animate attributeName="height" values="14;28;8;14" dur="1.1s" repeatCount="indefinite" begin="0.15s"/>
     <animate attributeName="y"      values="68;54;74;68" dur="1.1s" repeatCount="indefinite" begin="0.15s"/>
   </rect>
