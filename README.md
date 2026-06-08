@@ -4,6 +4,8 @@ A GitHub profile badge that shows the track you are listening to on Apple Music,
 
 The badge updates automatically as you switch tracks. Colors change per album. Bars animate while playing, go static when paused.
 
+![preview](preview.svg)
+
 ---
 
 ## How it works
